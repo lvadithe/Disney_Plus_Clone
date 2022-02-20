@@ -1,5 +1,6 @@
 import React from 'react'
 import ImgSlider from '../imgSlider/ImgSlider';
+import Movies from '../movies/Movies';
 import Viewers from '../viewers/Viewers';
 
 /* ========================= IMPORTANT =========================== */
@@ -11,6 +12,7 @@ function Home() {
         <div className="container__home">
             <ImgSlider />
             <Viewers />
+            <Movies />
         </div>
     )
 }
