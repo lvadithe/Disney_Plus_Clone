@@ -4,20 +4,20 @@ import './viewers.css';
 function Viewers() {
   return (
     <div className="component__viewers">
-        <div className="wrap">
-            <img src='/images/viewers-disney.png' />
+        <div className="wrap__img__viewer">
+            <img className='img__viewer' src='/images/viewers-disney.png' />
         </div>
-        <div className="wrap">
-            <img src='/images/viewers-disney.png' />
+        <div className="wrap__img__viewer">
+            <img className='img__viewer' src='/images/viewers-pixar.png' />
         </div>
-        <div className="wrap">
-            <img src='/images/viewers-disney.png' />
+        <div className="wrap__img__viewer">
+            <img className='img__viewer' src='/images/viewers-marvel.png' />
         </div>
-        <div className="wrap">
-            <img src='/images/viewers-disney.png' />
+        <div className="wrap__img__viewer">
+            <img className='img__viewer' src='/images/viewers-starwars.png' />
         </div>
-        <div className="wrap">
-            <img src='/images/viewers-disney.png' />
+        <div className="wrap__img__viewer">
+            <img className='img__viewer' src='/images/viewers-national.png' />
         </div>
     </div>
   )

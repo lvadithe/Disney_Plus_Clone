@@ -17,10 +17,10 @@ function ImgSlider() {
     return (
         <Slider dots={true} {...settings} className="container__imgSlider">
             
-            <div className="wrap">
+            <div className="wrap__Slider">
                 <img className='image__Slider' src='/images/slider-badging.jpg' alt="" />
             </div>
-            <div className="wrap">
+            <div className="wrap__Slider">
                 <img className='image__Slider' src='/images/slider-badag.jpg' alt="" />
             </div>
             
