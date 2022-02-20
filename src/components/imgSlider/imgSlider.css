@@ -8,7 +8,7 @@
     color: rgb(150, 158, 171);
 }
 
-li.slick-active button::before {
+.slick-dots li.slick-active button::before {
     color: rgb(246, 246, 246);
 }
 
