@@ -1,4 +1,121 @@
 .container__detail {
     min-height: calc(100vh - 70px);
     padding: 0 clac(3.5vw = 5px);
+    position: relative;
+}
+
+.background__component {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.img__detail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    height: 30vh;
+    min-height: 170px;
+    width: 35vw;
+    min-width: 200px;
+}
+
+.img__title {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.controls__detail {
+
+}
+
+.background__component {
+
+}
+
+.img__title {
+
+}
+
+.controls__detail {
+    display: flex;
+    align-items: center;
+}
+
+.play__button {
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 0px 24px;
+    margin-right: 22px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background: rgb(249, 249, 249);
+    border: none;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+}
+.play__button:hover {
+    background: rgb(198, 198, 198);
+}
+
+.triler__button {
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 0px 24px;
+    margin-right: 22px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+
+    background: rgb(0, 0, 0, 0.3);
+    border: 1px solid rgb(249, 249, 249);
+    color: rgb(249, 249, 249);
+    text-transform: uppercase;
+}
+
+.triler__button:hover {
+    background: rgb(198, 198, 198);
+}
+
+.add__button {
+    margin-right: 16px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.icon__add {
+    font-size: 30px;
+    color: white;
+
+}
+
+.group__watch__button {
+    margin-right: 16px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: rgb(0, 0, 0);
+    cursor: pointer;
 }
