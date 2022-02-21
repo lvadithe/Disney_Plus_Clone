@@ -12,30 +12,13 @@ function Movies() {
         <div className="container__movies">
             <h4>Recommended for you</h4>
             <div className="content__movies">
-                <div className="wrap__movie">
-                    <img className='img__movie' src="https://www.elsoldemexico.com.mx/gossip/omg/m9gewp-los-simpson.jpg/ALTERNATES/LANDSCAPE_1140/los%20simpson.jpg" alt="" />
-                </div>
-                <div className="wrap__movie">
-                    <img className='img__movie' src="https://www.elsoldemexico.com.mx/gossip/omg/m9gewp-los-simpson.jpg/ALTERNATES/LANDSCAPE_1140/los%20simpson.jpg" alt="" />
-                </div>
-                <div className="wrap__movie">
-                    <img className='img__movie' src="https://www.elsoldemexico.com.mx/gossip/omg/m9gewp-los-simpson.jpg/ALTERNATES/LANDSCAPE_1140/los%20simpson.jpg" alt="" />
-                </div>
-                <div className="wrap__movie">
-                    <img className='img__movie' src="https://www.elsoldemexico.com.mx/gossip/omg/m9gewp-los-simpson.jpg/ALTERNATES/LANDSCAPE_1140/los%20simpson.jpg" alt="" />
-                </div>
-                <div className="wrap__movie">
-                    <img className='img__movie' src="https://www.elsoldemexico.com.mx/gossip/omg/m9gewp-los-simpson.jpg/ALTERNATES/LANDSCAPE_1140/los%20simpson.jpg" alt="" />
-                </div>
-                <div className="wrap__movie">
-                    <img className='img__movie' src="https://www.elsoldemexico.com.mx/gossip/omg/m9gewp-los-simpson.jpg/ALTERNATES/LANDSCAPE_1140/los%20simpson.jpg" alt="" />
-                </div>
-                <div className="wrap__movie">
-                    <img className='img__movie' src="https://www.elsoldemexico.com.mx/gossip/omg/m9gewp-los-simpson.jpg/ALTERNATES/LANDSCAPE_1140/los%20simpson.jpg" alt="" />
-                </div>
-                <div className="wrap__movie">
-                    <img className='img__movie' src="https://www.elsoldemexico.com.mx/gossip/omg/m9gewp-los-simpson.jpg/ALTERNATES/LANDSCAPE_1140/los%20simpson.jpg" alt="" />
-                </div>
+                {
+                    movies?.map((movie) => (
+                        <div className="wrap__movie" key={movie.id}>
+                            <img className='img__movie' src={movie.cardImg}  />
+                        </div>
+                    ))
+                }
             </div>
         </div>
     )
