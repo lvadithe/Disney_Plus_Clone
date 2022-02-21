@@ -119,3 +119,17 @@
     background: rgb(0, 0, 0);
     cursor: pointer;
 }
+
+.subtitle {
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    min-width: 20px;
+    margin-top: 26px;
+}
+
+.description {
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+    color: rgb(249, 249, 249);
+}

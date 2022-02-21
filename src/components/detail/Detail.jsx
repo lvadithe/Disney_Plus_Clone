@@ -26,6 +26,15 @@ function Detail() {
                     <img src="/images/group-icon.png" alt="" />
                 </button>
             </div>
+            <div className="subtitle">
+                2019 - 7m - Family - Fantasy - Kids - animation
+            </div>
+            <div className="description">
+                Star Wars, conocida también en español como La guerra de las galaxias,
+                es una franquicia compuesta primordialmente de una serie de películas concebidas
+                por el cineasta estadounidense George Lucas en la década de 1970, y producidas y
+                distribuidas por The Walt Disney Company a partir de 2012.
+            </div>
         </div>
     )
 }
