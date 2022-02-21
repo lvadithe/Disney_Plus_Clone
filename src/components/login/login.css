@@ -1,0 +1,31 @@
+.container__login {
+    position: relative;
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__login::before {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/public/images/login-background.jpg');
+    content: "";
+    position: absolute;  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.content__login {
+    
+}
+
+.content__logo_one {
+    max-width: 650px;
+    padding: 80px 40px;
+    width: 70%;
+}
