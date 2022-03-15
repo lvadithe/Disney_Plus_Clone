@@ -1,44 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<h1 aling='center'>Disney Plus clone with React.Js</h1>
 
-## Available Scripts
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg" />
 
-In the project directory, you can run:
+<p aling='center'> Disney Plus clone with React.Js is a project in which I tested my skills mainly in React, Redux, Css and consuming information from an Api, this project uses a database and firebase authentication, a main point of Disney Plus clone is to see the details of the movies, the main intention of this project was to look for a good UX/UI design and open the door to more ambitious projects.</p>
 
-### `npm start`
+<div>
+  <h1>
+    Topics
+  </h1>
+  <ul>
+    <li>
+      Redux
+    </li>
+    <li>
+      React Hooks
+    </li>
+    <li>
+      Firebase's Database
+    </li>
+    <li>
+      Firebase Google Authentication (Full Login)
+    </li>
+    <li>
+      Responsive Design
+    </li>
+  </ul>
+</div>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<div>
+  <h1>Setting Up in Local Environment</h1>
+  <ol>
+    <li>
+      Clone this repository - git clone https://github.com/lvadithe/Disney_Plus_Clone.git
+    </li>
+    <li>
+      Move into the project repository - cd Disney_Plus_Clone
+    </li>
+    <li>
+      Create a firebase project and copy your project configurations' settings with the contents of the file firebase.js inside src folder.
+    </li>
+    <li>
+      Now, install the required dependencies - npm install
+    </li>
+    <li>
+      Now, run the project on localhost - npm start
+    </li>
+  </ol>
+</div>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+The project will be started in local development mode on http://localhost:3000/
